@@ -91,3 +91,7 @@ body {
     padding: 5px;
     background-color: #d7cbe8;
 }
+.stat-icon:hover, .stat-value:hover, .goal-icon:hover, .rocket-goal:hover {
+    background-color: #eee7f7;
+    cursor: pointer;
+}

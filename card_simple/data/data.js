@@ -1,7 +1,7 @@
 const data = [
     {
       "id": 1,
-      "name": "Falcon Heavy",
+      "name": "Falcon Heavy", 
       "group_letter": "A",
       "number": 1,
       "group": "Launchers",
