@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #330f52;
+    font-family: "Fira Sans", sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    background-color: rgb(255, 255, 240);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.card-content {
+    border-radius: 10px;
+    border: 2px solid #222;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 4fr 1fr 1fr 1fr 1fr;
+}
+
+.card-number {
+    font-size: 36px;
+    padding: 5px;
+}
+
+.card-title {
+    grid-column: span 3;
+    border: 1px solid white;
+}
+.card-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.rocket-image {
+    grid-column: span 4;
+    border: 1px solid white;
+}
+
+.rocket-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 170px;
+}
+
+.goal-icon {
+    grid-column: span 1;
+    border: 1px solid white;
+    background-color: #a88dcf;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.rocket-goal {
+    grid-column: span 3;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #d7cbe8;
+}
+
+.stat-icon {
+    grid-column: span 1;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #a88dcf;
+}
+
+.stat-value {
+    grid-column: span 1;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: #d7cbe8;
+}
