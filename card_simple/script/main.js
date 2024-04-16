@@ -8,7 +8,7 @@ $(document).ready(function (){
             <div class="card-name">${rocket.name}</div>
             <div class="card-group">${rocket.group}</div>
         </div>
-        <div class="rocket-image"><img src="images/voyager.webp" alt=""></div>
+        <div class="rocket-image"><img src="images/rockets/${rocket.name}.jpg" alt=""></div>
         <div class="goal-icon">Goal</div>
         <div class="rocket-goal">${rocket.mission_goal}</div>
         
